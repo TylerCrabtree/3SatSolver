@@ -1,0 +1,4 @@
+test:
+  script: "npm install --quiet --depth 0 && unbuffer npm test -- --color"
+  tags:
+    - nodejs
